@@ -6,8 +6,8 @@
 name: tfsec
 
 on:
-  #push:
-   # branches: [ "main" ]
+  push:
+    branches: [ "dev" ]
   pull_request:
     branches: [ "main" ]
 
