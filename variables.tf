@@ -1,3 +1,6 @@
+variables "access_key" {}
+variables "secret_key" {}
+
 variable "database_route_table_association_required" {
   description = "Whether db route table association required"
   type        = bool
