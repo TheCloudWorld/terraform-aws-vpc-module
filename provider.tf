@@ -6,7 +6,7 @@ provider "aws" {
 
   assume_role {
     # roles of account B where resources will be deloyed
-    role_arn    = "arn:aws:iam::569775151562:role/terraform-access"
-    external_id = "abcdef"
+    role_arn    = var.account_role
+    external_id = var.ext
   }
 }

@@ -1,5 +1,7 @@
 variable "access_key" {}
 variable "secret_key" {}
+variable "account_role" {}
+variable "ext" {}
 
 variable "database_route_table_association_required" {
   description = "Whether db route table association required"
